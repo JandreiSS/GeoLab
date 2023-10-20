@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Ângulo geométrico</h1>
+    <div class="btn-box">
+      <a href="conteudos.html">Voltar</a>
+   </div>
+    </section>     
+      
+<!----- angulo ----->
+
+  <selection class="angulo">
+       <h1>Medida de Ângulos</h1>
+        <p></p>
+      
+      <div class="row">
+           <div class="angulo-col">
+           <img src="images/angulo1.png">
+            <h3></h3>
+            <p></p>     
+          </div>
+          <div class="angulo-col">
+            <img src="images/angulo2.png">
+            <h3>Medida de ângulos</h3>
+            <p>Na medição de ângulos, usamos como unidade de medida o grau (°). A medida a de ângulos geomé-
+              tricos é tal que 0° a 180°.
+              Classificamos um ângulo geométrico como agudo, reto ou obtuso.<br>Por extensão do conceito de ângulo, temos:
+              . O ângulo obtido por duas semirretas opostas é chamado de ângulo raso e ele mede 180°</p> 
+          </div>
+           <div class="angulo-col">
+           <img src="images/angulo3.png">
+            <h3></h3>
+            <p></p>     
+          </div>
+      </div>
+        </selection>
+        
+<!----- angulo 2 -----> 
+
+<selection class="angulo">
+  <h1>Outras definições envolvendo ângulos</h1>
+   <p>.Dois ângulos de medidas a e b são complementares se, e somente se, a + b = 90°<br>
+    . Dois ângulos de medidas a e b são suplementares se, e somente se, a + b = 180°<br>
+    . Dois ângulos são consecutivos se possuem a mesma origem e um lado em comum entre os outros dois lados não comuns.<br>
+    <br><b>Exemplo:</b></p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="images/ex2.png">
+       <h3>Os ângulos AÔD e DÔB são consecutivos.</h3>
+       <p></p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/ex3.png">
+       <h3>A bissetriz de um ângulo é a semirreta que o divide em outros dois ângulos consecutivos congruentes. <b>Exemplo:</b>
+        Na figura a seguir,
+        OD é bissetriz de AÔB</h3>
+       <p></p>     
+     </div>
+      <div class="angulo-col">
+      <img src="images/ex4.png">
+       <h3>Dois ângulos são adjacentes quando são consecutivos e suplementares. <b>Exemplo:</b>
+        Os ângulos AÔB e BÔC são adjacentes.</h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+   <!----- angulo 3 -----> 
+
+<selection class="angulo">
+  <h1>Ângulos entre retas</h1>
+   <p>Um par de retas concorrentes determina dois pares de ângulos, que são ditos opostos pelo vértice.
+    Já um par de retas paralelas cortadas por uma transversal determina oito ângulos que, dois a dois,
+    recebem nomes especiais: correspondentes, alternos internos, alternos externos, colaterais internos ou
+    colaterais externos.</p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="images/angulo4.png">
+       <h3>Ângulos opostos pelo vértice</h3>
+       <p>Dois ângulos são chamados opostos pelo vértice quando os lados de um deles são semirretas opostas
+        aos lados do outro. Assim, duas retas concorrentes determinam dois pares de ângulos opostos pelo vértice.</p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/angulo5.png">
+       <h3>Retas paralelas cortadas por uma transversal</h3>
+       <p>Considere as retas paralelas r e s, cortadas por uma transversal t. Essas retas formam oito ângulos que
+        recebem nomes especiais</p>     
+     </div>
+      <div class="angulo-col">
+      <img src="images/ex5.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>

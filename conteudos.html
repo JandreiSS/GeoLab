@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Conteúdos </h1>
+    </section>     
+
+<!----- Conteúdos ----->
+<section class="conteudos" id="conteudos">
+
+     <div class="conteudos-row">
+        <div class="conteudos-column">
+           <h3 class="title">⠀</h3>
+
+           <div class="conteudos-box">
+             <div class="conteudos-content">
+                 <div class="content">
+                    <h3>ÂNGULO 1</h3>
+                    <p>Ângulo geométrico, é uma medida de rotação ou inclinação entre
+                         duas linhas ou segmentos de reta que se encontram em um ponto comum. 
+                    </p>
+                    <div class="conteudos-bx">
+                        <a href="angulo1.html">Ler</a>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="conteudos-content">
+                <div class="content">
+                   <h3>ÂNGULO 2</h3>
+                   <p>Ângulos no triangulo, são medidas de abertura entre os lados de um triângulo. Eles podem incluir o ângulo
+                     interno entre dois lados ou o ângulo externo formado por uma extensão de um lado e um lado adjacente. 
+                </p>
+                <div class="conteudos-bx">
+                    <a href="angulo2.html">Ler</a>
+                 </div>
+                </div>
+            </div>
+
+            <div class="conteudos-content">
+                <div class="content">
+                   <h3>ÂNGULO 3</h3>
+                   <p>Polígonos convexos,  são figuras geométricas planas com lados e ângulos internos que não se curvam para dentro,
+                     mantendo todos os ângulos internos menores que 180 graus e apresentando todos os pontos conectados em uma única direção.
+                </p>
+                <div class="conteudos-bx">
+                    <a href="angulo3.html">Ler</a>
+                 </div>
+                </div>
+            </div>
+           </div>
+        </div>
+
+        <div class="conteudos-column">
+            <h3 class="title">⠀</h3>
+ 
+            <div class="conteudos-box">
+              <div class="conteudos-content">
+                  <div class="content">
+                     <h3>ÂNGULO 4</h3>
+                     <p>Ângulos em uma circunferência, são medidas de abertura formadas por dois raios
+                         ou segmentos de reta que compartilham o mesmo ponto inicial no centro da circunferência.
+                    </p>
+                    <div class="conteudos-bx">
+                        <a href="angulo4.html">Ler</a>
+                     </div>
+                  </div>
+              </div>
+ 
+              <div class="conteudos-content">
+                 <div class="content">
+                    <h3>ÂNGULO 5</h3>
+                    <p>Simetrias e congruências, Simetrias são transformações geométricas que preservam a forma e o tamanho de um objeto, enquanto congruências são transformações
+                         que preservam apenas o tamanho e a forma.
+                    </p>
+                    <div class="conteudos-bx">
+                        <a href="angulo5.html">Ler</a>
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class="conteudos-content">
+                 <div class="content">
+                    <h3>ÂNGULO 6</h3>
+                    <p>Segmentos proporcionais,  são dois ou mais segmentos de reta que mantêm a mesma razão ou proporção entre seus comprimentos. Em outras palavras,
+                         se você dividir o comprimento de um segmento pelo comprimento de outro.
+                    </p>
+                    <div class="conteudos-bx">
+                        <a href="angulo6.html">Ler</a>
+                     </div>
+                 </div>
+             </div>
+            </div>
+         </div>
+     </div>
+
+</section>
+        
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>

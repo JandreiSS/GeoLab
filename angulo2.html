@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Ângulos no triangulo</h1>
+    <div class="btn-box">
+      <a href="conteudos.html">Voltar</a>
+   </div>
+    </section>     
+      
+<!----- angulo 1----->
+
+  <selection class="angulo">
+       <h1>Classificação de triângulos</h1>
+        <p>Quanto aos lados, podemos classificar um triângulo como:</p>
+      
+      <div class="row">
+           <div class="angulo-col">
+           <img src="images/triangulo1.png">
+            <h3>Escaleno, caso possua três lados de medidas distintas</h3>
+            <p></p>     
+          </div>
+          <div class="angulo-col">
+            <img src="images/triangulo2.png">
+            <h3>Isósceles, caso possua dois lados de medidas iguais</h3>
+            <p></p> 
+          </div>
+           <div class="angulo-col">
+           <img src="images/triangulo3.png">
+            <h3>Equilátero, caso possua três lados de medidas iguais</h3>
+            <p></p>     
+          </div>
+      </div>
+        </selection>
+        
+<!----- angulo 2 -----> 
+
+<selection class="angulo">
+  <h1></h1>
+   <p></p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="images/triangulo4.png">
+       <h3>Acutângulo, caso tenha três ângulos agudos</h3>
+       <p></p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/triangulo5.png">
+       <h3>Retângulo, caso tenha um ângulo reto</h3>
+       <p></p>     
+     </div>
+      <div class="angulo-col">
+      <img src="images/triangulo6.png">
+       <h3>Obtusângulo, caso tenha um ângulo obtuso</h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+   <!----- angulo 3 -----> 
+
+<selection class="angulo">
+  <h1>Teorema angular de Tales</h1>
+   <p>Podemos destacar os seguintes resultados importantes sobre a análise de ângulos em um triângulo:</p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="">
+       <h3></h3>
+       <p></p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/triangulo7.png">
+       <h3>Teorema angular de Tales:<BR> a soma das medidas dos ângulos internos de qualquer triângulo é igual
+        a 180°.
+        No triângulo ABC, a + B + Y = 180°</p>     
+     </div>
+      <div class="angulo-col">
+      <img src="">
+       <h3></h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+     <!----- angulo 4 -----> 
+
+<selection class="angulo">
+  <h1>Teorema do ângulo externo</h1>
+   <p>a medida de um ângulo externo é igual à soma das medidas dos ângulos internos não adjacentes a ele.</p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="">
+       <h3></h3>
+       <p></p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/triangulo8.png">
+       <h3><BR> No triângulo ABC abaixo, e = a + B.
+</p>     
+     </div>
+      <div class="angulo-col">
+      <img src="">
+       <h3></h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>

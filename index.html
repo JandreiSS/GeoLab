@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    
+    <section class="home">
+        <div class="home-content">
+           <h1>Bem Vindo ao GeoLab</h1>
+           <h3>Site focado na materia de Geometria⠀⠀⠀⠀⠀⠀⠀</h3>
+           <p>GeoLab e um projeto que foi criado pelos alunos da primeira serie do ensino medio do colegio
+            caesp para facilitar na materia de geometria</p>
+            <div class="btn-box">
+               <a href="sobre.html">Sobre Nos</a>
+               <a href="contato.html">Contato</a>
+            </div>
+        </div>
+   </section>
+          
+    
+    </section>     
+           
+  <!----- donos ----->       
+        
+   <selection class="donos">
+       <h1>Donos/Criadores</h1>
+       <p>Trabalho de logica Caesp 2023 2 Bimestre</p>  
+       
+      <div class="row">
+          <div class="donos-col">
+              <img src="images/predio1.png">
+              <div class="layer">
+                  <h3>GUSTAVO ZANETTE</h3>
+              </div>
+          </div>
+          <div class="donos-col">
+              <img src="images/predio2.png">
+              <div class="layer">
+                  <h3>GABRIEL TOMAZ</h3>
+              </div>
+          </div>
+          <div class="donos-col">
+              <img src="images/predio3.png">
+              <div class="layer">
+                  <h3>THEILOR TEZZA</h3>
+              </div>
+          </div>
+      </div>
+    
+</selection>
+        
+<!----- chat ----->
+        
+    <selection class="chat">
+        <h1>O que nossos usuarios dizem</h1>
+        <p></p>
+        
+        <div class="row">
+           <div class="chat-col">
+               <img src="images/user1.jpg">
+               <div>
+                   <p>Um site de geometria bem estruturado geralmente oferece uma ampla gama de conteúdos, desde conceitos básicos até tópicos avançados.</p>
+                   <h3>Carlinhos</h3>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+               </div>
+            </div>
+           <div class="chat-col">
+               <img src="images/user2.jpg">
+               <div>
+                   <p>Um site de geometria bem estruturado geralmente oferece uma ampla gama de conteúdos, desde conceitos básicos até tópicos avançados.</p>
+                   <h3>James</h3>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+               </div>
+            </div>
+        </div>
+        
+    </selection>   
+
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>

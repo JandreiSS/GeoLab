@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Polígonos convexos</h1>
+    <div class="btn-box">
+      <a href="conteudos.html">Voltar</a>
+   </div>
+    </section>     
+      
+<!----- angulo 1----->
+
+  <selection class="angulo">
+       <h1></h1>
+        <p></p>
+      
+      <div class="row">
+           <div class="angulo-col">
+           <img src="images/ex7.png">
+            <h3></h3>
+            <p></p>     
+          </div>
+          <div class="angulo-col">
+            <img src="images/ex6.png">
+            <h3></h3>
+            <p></p> 
+          </div>
+           <div class="angulo-col">
+           <img src="images/ex8.png">
+            <h3></h3>
+            <p></p>     
+          </div>
+      </div>
+        </selection>
+        
+<!----- angulo 2 -----> 
+
+<selection class="angulo">
+  <h1></h1>
+   <p></p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="images/formula1.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/formula2.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+      <div class="angulo-col">
+      <img src="images/formula3.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+   <!----- angulo 3 -----> 
+
+<selection class="angulo">
+  <h1>Polígonos regulares</h1>
+   <p>Polígono regular é um polígono equilátero e equiângulo, ou seja, um polígono cujos lados têm a mes-
+    ma medida e cujos ângulos são congruentes entre si.</p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="images/poligno1.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/poligno2.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+      <div class="angulo-col">
+      <img src="images/poligno3.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+     <!----- angulo 4 -----> 
+
+<selection class="angulo">
+  <h1></h1>
+   <p></p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="images/formula4.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+     <div class="angulo-col">
+      <img src="">
+       <h3></h3>
+       <p></p>     
+     </div>
+      <div class="angulo-col">
+      <img src="images/formula5.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Sobre Nos</h1>
+    </section>     
+        
+<!----- sobre content ----->
+ 
+<section class="sobre-nos">
+    
+<div class="row">
+    <div class="sobre-col">
+         <h1>Maior site de geometria do Paraná</h1>
+         <p>No Geo Lab, você encontrará uma variedade de recursos cuidadosamente elaborados para atender às suas necessidades de aprendizado. Nossa equipe de especialistas em geometria desenvolveu uma vasta coleção de artigos e tutoriais, abrangendo desde os fundamentos básicos até tópicos mais avançados. Esses materiais são apresentados de forma clara e concisa, com exemplos práticos e ilustrações detalhadas para auxiliar na compreensão dos conceitos.</p>
+        <a href="index.html" class="hero-btn blue-btn">Explore mais</a>
+    </div>
+        <div class="sobre-col">
+            <img src="images/about.jpg">
+    </div> 
+</div>
+        
+        
+        
+</section>
+
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>

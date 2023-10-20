@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Nos contate</h1>
+    </section>     
+        
+<!----- nos contate ----->
+        
+<selection class="localizacao">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.256068385093!2d-54.09869268819218!3d-25.295599377554556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6ad8e1055a61f%3A0x9baf744772c58e46!2sCaesp%20Medianeira!5e0!3m2!1spt-BR!2sbr!4v1687997832336!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+</selection> 
+        
+ <selection class="nos-contate">
+      
+     <div class="row">
+          <div class="contate-col">
+              <div>
+                <i class="fa fa-home"></i>
+                <span>
+                <h5>Av. Brasil, 1677 - Centro</h5>
+                <p>Medianeira, Paraná</p>
+                  </span>
+              </div>
+                        <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                <h5>(45) 3264-5800</h5>
+                <p>Segunda a Sexta, 7,30 AM ate 18PM</p>
+                  </span>
+              </div>
+                        <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                <h5>geolab@gmail.com</h5>
+                <p>Email para contato</p>
+                  </span>
+              </div>
+         </div>
+          <div class="contate-col"> 
+                       <form action="">
+             <input type="text" placeholder="Digite seu nome" required>
+             <input type="email" placeholder="Digite seu email" required>
+             <input type="text" placeholder="Digite seu assunto" required>
+             <textarea rows="8" placeholder="Mensagem" required></textarea>
+             <button type="submit" class="hero-btn blue-btn">Envie sua Mensagem</button>
+         </form>        
+         </div>   
+     </div>
+        
+</selection>
+        
+
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>

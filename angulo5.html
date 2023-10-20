@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Simetrias e congruências</h1>
+    <div class="btn-box">
+      <a href="conteudos.html">Voltar</a>
+   </div>
+    </section>     
+      
+<!----- angulo 1----->
+
+  <selection class="angulo">
+       <h1></h1>
+        <p></p>
+      
+      <div class="row">
+           <div class="angulo-col">
+           <img src="images/simetria1.png">
+            <h3>Simetrias</h3>
+            <p>Ao se aplicar a reflexão em relação à reta ou a rotação em relação a um ponto a algumas figuras, a
+              imagem obtida pode coincidir com a figura original. Nesses casos, dizemos que a figura apresenta simetria
+              em relação à reflexão, ou à rotação.
+              As imagens abaixo mostram exemplos de figuras que possuem simetria axial (ou seja, simetria em
+              relação à reflexão) ou simetria radial (simetria em relação à rotação).</p>     
+          </div>
+          <div class="angulo-col">
+            <img src="images/simetria2.png">
+            <h3>Ângulo central de um polígono regular</h3>
+            <p>O ângulo cujo vértice coincide com o centro do polígono e em que os lados são os segmentos que
+              unem esse centro a dois vértices consecutivos do polígono é chamado de ângulo central. A figura a seguir
+              mostra um ângulo central com medida a de um polígono regular de n lados.</p> 
+          </div>
+           <div class="angulo-col">
+           <img src="images/simetria3.png">
+            <h3>Congruência de figuras planas</h3>
+            <p>Duas figuras são <b>congruentes</b> se existe uma isometria que pos-
+              sa ser aplicada a uma delas de modo a se obter a outra. Em parti-
+              cular, dois polígonos são congruentes se possuem lados e ângulos
+              correspondentes com mesma medida.</p>     
+          </div>
+      </div>
+        </selection>
+        
+<!----- angulo 2 -----> 
+
+<selection class="angulo">
+  <h1>Congruência de triângulos</h1>
+   <p>
+</p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="images/triangulos1.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/triangulos2.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+      <div class="angulo-col">
+      <img src="images/triangulos3.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+
+  <!----- angulo 3 -----> 
+
+<selection class="angulo">
+  <h1></h1>
+   <p>
+</p>
+ 
+ <div class="row">
+      <div class="angulo-col">
+      <img src="images/angulo9.png">
+       <h3>Segmentos tangentes</h3>
+       <p>Dado um ponto P exterior a uma circunferência de centro O, os segmentos
+        PA e PB – ambos tangen-
+        tes à circunferência nos pontos A e B, respectivamente – são denominados <b>segmentos tangente</b>.</p>     
+     </div>
+     <div class="angulo-col">
+      <img src="images/poligno4.png">
+       <h3>Quadriláteros notáveis</h3>
+       <p>Os quadriláteros notáveis são os quadriláteros convexos com, pelo menos, dois lados paralelos. Existem
+        cinco quadriláteros notáveis:</p>     
+     </div>
+      <div class="angulo-col">
+      <img src="images/tabela1.png">
+       <h3></h3>
+       <p></p>     
+     </div>
+ </div>
+   </selection>
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>

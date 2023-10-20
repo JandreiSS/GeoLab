@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial-scale=1.0">
+    <title>GeoLab Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+    <body>
+<section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/geolab.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="conteudos.html">CONTEÚDOS</a></li>
+            <li><a href="exercicios.html">EXERCICIOS</a></li>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+          </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Ângulos em uma circunferência</h1>
+    <div class="btn-box">
+      <a href="conteudos.html">Voltar</a>
+   </div>
+    </section>     
+      
+<!----- angulo 1----->
+
+  <selection class="angulo">
+       <h1></h1>
+        <p></p>
+      
+      <div class="row">
+           <div class="angulo-col">
+           <img src="images/angulo8.png">
+            <h3>Ângulo central e medida do arco</h3>
+            <p>Qualquer ângulo cujo vértice está sobre o centro da circunferência e os lados são as semirretas deter-
+              minadas pelo centro e por pontos dessa circunferência é chamado de ângulo central.
+              A medida de um arco de circunferência é a medida do ângulo central correspondente a ele.</p>     
+          </div>
+          <div class="angulo-col">
+            <img src="images/angulo6.png">
+            <h3>Ângulo inscrito</h3>
+            <p>Qualquer ângulo cujo vértice é um ponto pertencente à circunferência e os lados são as semirretas
+              determinadas por esse ponto e por outros pontos dessa circunferência é chamado de ângulo inscrito.<br>
+            <b>A medida de um ângulo inscrito em uma circunferência é igual à metade da medida do arco
+              correspondente a ele.</b></p> 
+          </div>
+           <div class="angulo-col">
+           <img src="images/angulo7.png">
+            <h3>Ângulo de segmento</h3>
+            <p>Qualquer ângulo cujo vértice é um ponto pertencente à circunferência, um dos lados é secante e o
+              outro lado está sobre a reta tangente à circunferência é chamado de ângulo de segmento.<br>
+            <b>A medida de um ângulo de segmento de uma circunferência é igual à metade da medida do arco
+              correspondente a ele</b></p>     
+          </div>
+      </div>
+        </selection>
+
+<!----- sobre ----->
+        
+    <selection class="sobre">
+        <h4>Sobre Nos</h4>
+        <p>Somos o maior site de geometria do Paraná</p>
+        </selection>
+        
+        
+<!--------JavaScript for Toogle Menu------->       
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+        
+    </script> 
+        
+    </body>
+    </html>
